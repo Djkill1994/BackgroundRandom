@@ -1,0 +1,20 @@
+.container-bgButton-random{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.bgButtonRandom{
+    border-radius: 7px;
+}
+
+.bgButtonRandom:hover{
+    background-color: gray;
+    box-shadow:white 1px 1px 1px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+body{
+  background-color: black;
+}
