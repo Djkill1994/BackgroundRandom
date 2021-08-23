@@ -22,7 +22,6 @@ function randomBgColor () {
 
     let rgbRandom = "rgb(" + x + "," + y + "," + z + ")";
     document.body.style.background = rgbRandom;
-    let textHexColor = 'HEX color:';
-    hexColor.innerHTML = rgbToHex(x, y, z);
+    hexColor.innerHTML = 'HEX color:' + rgbToHex(x, y, z);
 }
 bgButtonRandom.addEventListener("click", randomBgColor);
