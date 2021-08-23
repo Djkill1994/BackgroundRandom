@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     height: 30em;
+    flex-direction: column;
 }
 .bgButtonRandom{
     border-radius: 7px;
@@ -18,9 +19,10 @@ body{
   background-color: black;
 }
 
-h2
+.byDjkill
 {
     color: white;
     display: flex;
     justify-content: flex-end;
 }
+
